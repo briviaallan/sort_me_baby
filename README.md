@@ -1,5 +1,6 @@
 # sort_me_baby
-An auto file sorting script for windows & linux systems
+An auto file sorting script for windows & linux systems for the OCD typrs (LOL)
+****it's great to keep your drive organized****
 
 ### How to Use the Media Sorting Script:
 
