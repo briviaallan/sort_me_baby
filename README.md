@@ -1,9 +1,9 @@
 # sort_me_baby
-An auto file sorting script for linux based systems
+An auto file sorting script for linux based systems and Windows PC
 
-**Linux Systems**
 ### How to Use the Media Sorting Script:
 
+### Linux Systems
 1. Download the script: Save the script to a location on your Linux computer. You can name it something like `media_sort.sh`.
 
 2. Make the script executable: Open a terminal, navigate to the folder containing the script, and run the following command to make it executable:
@@ -37,7 +37,7 @@ An auto file sorting script for linux based systems
 Please ensure you understand what the script does before running it. Be cautious when using the script with elevated privileges and make sure to have backups of important data before performing file operations. It's essential to use the script responsibly and verify the results to avoid unintentional data loss or file modifications.
 
 
-**Windows Systems**
+### Windows Systems
 
 To use the script for sorting your video files on a Windows system using PowerShell, follow these instructions:
 
