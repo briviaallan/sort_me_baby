@@ -1,7 +1,7 @@
 # sort_me_baby
 An auto file sorting script for linux based systems
 
-
+**Linux Systems**
 ### How to Use the Media Sorting Script:
 
 1. Download the script: Save the script to a location on your Linux computer. You can name it something like `media_sort.sh`.
@@ -35,3 +35,54 @@ An auto file sorting script for linux based systems
 12. Sorting Completion: After processing all files and subdirectories, the script will display the message "Files sorted into appropriate folders."
 
 Please ensure you understand what the script does before running it. Be cautious when using the script with elevated privileges and make sure to have backups of important data before performing file operations. It's essential to use the script responsibly and verify the results to avoid unintentional data loss or file modifications.
+
+
+**Windows Systems**
+
+To use the script for sorting your video files on a Windows system using PowerShell, follow these instructions:
+
+1. **Prepare the Script:**
+   - Copy the PowerShell script provided in the previous response and save it to a text file with a `.ps1` extension. For example, you can name it `sort_me_baby.ps1`.
+
+2. **Open PowerShell:**
+   - Press the Windows key, type "PowerShell," and select "Windows PowerShell" or "Windows PowerShell (Admin)" from the search results. Running PowerShell with admin privileges may be required if you want to move files across different drives or partitions.
+
+3. **Set Execution Policy (Optional):**
+   - By default, PowerShell restricts running scripts for security reasons. If you haven't previously executed any PowerShell scripts on your system, you might need to change the execution policy. To do this, run the following command:
+     ```
+     Set-ExecutionPolicy RemoteSigned
+     ```
+   - Choose `Y` or `A` when prompted to confirm the change.
+
+4. **Navigate to the Script's Directory:**
+   - Use the `cd` command to change the working directory to the location where you saved the PowerShell script. For example, if you saved the script in your Documents folder, use:
+     ```
+     cd C:\Users\YourUserName\Documents
+     ```
+
+5. **Run the Script:**
+   - Execute the script by typing its name followed by the `Enter` key. For example:
+     ```
+     .\sort_me_baby.ps1
+     ```
+   - Note: The `.\` prefix before the script name is essential to execute scripts in the current directory.
+
+6. **Follow the Prompts:**
+   - The script will prompt you to enter the source folder path for your video files. Provide the full path to the folder containing your video files (e.g., `C:\Videos`), and press `Enter`.
+
+   - Next, it will ask you to enter the destination folder path where the sorted video files will be moved or copied. Provide the full path to the destination folder (e.g., `D:\SortedVideos`), and press `Enter`.
+
+   - The script will then prompt you to choose whether you want to "move" or "copy" the video files. Type `move` or `copy` and press `Enter`.
+
+7. **Wait for Sorting:**
+   - The script will start sorting your video files based on their commonalities in titles and move or copy them to appropriate subfolders.
+
+8. **Review the Results:**
+   - Once the sorting is complete, the script will display a message indicating that the files have been sorted into appropriate folders.
+
+9. **Exit PowerShell:**
+   - You can close the PowerShell window once the sorting is finished.
+
+Remember to exercise caution when using the script, especially when moving or copying files. Always back up your important data before running any script that performs file operations.
+
+Please ensure that you have a backup of your video files before running the script and verify the results after the sorting process is complete.
